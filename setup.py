@@ -111,8 +111,8 @@ setup(
     package_data={NAME: ['data/*']},
     entry_points='''
         [console_scripts]
-        readme-pdf=readme_utils:init
-        readme-init=readme_utils:pdf
+        readme-pdf=readme_utils:pdf
+        readme-init=readme_utils:init
     ''',
     install_requires=REQUIRED,
     extras_require=EXTRAS,
