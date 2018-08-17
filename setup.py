@@ -18,7 +18,7 @@ URL = 'https://github.com/tormenteddan/readme_utils'
 EMAIL = 'daniel.aragon@ciencias.unam.mx'
 AUTHOR = 'Daniel Aragon'
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = '0.1.1.1'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -109,12 +109,11 @@ setup(
     # py_modules=['mypackage'],
     package_dir={NAME: NAME},
     package_data={NAME: ['data/*']},
-    entry_points={
-        'console_scripts': [
-            'readme-pdf=readme_utils:pdf',
-            'readme-init=readme_utils:init'
-        ],
-    },
+    entry_points='''
+        [console_scripts]
+        readme-pdf=readme_utils:init
+        readme-init=readme_utils:pdf
+    ''',
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
