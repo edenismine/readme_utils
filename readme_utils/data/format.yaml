@@ -1,0 +1,14 @@
+---
+title: 'My title'
+author:
+- Author 1
+- Author 2
+date: 'January 1st, 2000'
+bibliography: bibliography.bib
+lan: en
+#classoption: twocolumn
+geometry: margin=2cm
+colorlinks: True
+#toc: True
+#toc-depth: 6
+---

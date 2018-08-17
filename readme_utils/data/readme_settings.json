@@ -1,0 +1,7 @@
+{
+  "project": "PROJECT_NAME",
+  "main": "readme.md",
+  "header": "header.tex",
+  "metadata": "format.yaml",
+  "bib": "bibliography.bib"
+}
