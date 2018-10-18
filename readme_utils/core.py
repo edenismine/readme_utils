@@ -1,4 +1,3 @@
-# Insert your code here.
 import click
 import os
 import pkg_resources
